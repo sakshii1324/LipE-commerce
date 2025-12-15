@@ -1,0 +1,132 @@
+const Main = () => {
+  return (
+    <div className="bg-gradient-to-br from-pink-300 to-pink-100">
+
+      {/* NAVBAR */}
+      <nav className="text-white px-6 py-3">
+        <div className="max-w-8xl mx-auto flex items-center justify-between">
+
+          {/* Logo */}
+          <a href="/" className="w-12 h-10 font-bold mr-6 ml-3">
+            <img src="/img/logo.svg" alt="logo" />
+          </a>
+
+          {/* Menu */}
+          <ul id="menu" className="hidden md:flex gap-10 font-medium text-lg">
+            <li><a href="/" className="hover:scale-110 text-gray-400 transition">Home</a></li>
+            <li><a href="/about" className="hover:text-gray-400  transition">About</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">Nude Shades</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">Gloss</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">Lip Oil</a></li>
+            <li>
+            <img src="/img/cart-large-2-svgrepo-com.svg" alt="cart" className="w-7 h-7 absolute hover:scale-110" /></li>
+          </ul>
+
+          {/* Search Bar */}
+          <div className="ml-10 relative">
+            <img
+              src="/img/lipstick-makeup-svgrepo-com.svg"
+              className="w-7 h-7 absolute top-2 right-3"
+              alt="search icon"
+            />
+
+            <input
+              type="text"
+              placeholder="Search..."
+              className="w-80 py-3 px-3 rounded-full border border-gray-400
+                         focus:outline-none focus:ring-2 focus:ring-gray-400
+                         text-sm bg-white text-gray-700"
+            />
+          </div>
+
+          {/* Login Button */}
+          {/* <div><img src="/img/cart-large-2-svgrepo-com.svg" alt="cart" className="w-7 h-7 absolute ml-12" /></div> */}
+          
+          <a
+            href="/login"
+            className="hidden md:inline-block bg-gray-700 hover:shadow-lg px-5 py-3 rounded-full
+                       hover:bg-gray-600 hover:scale-105 transition ml-12"
+          >
+            Login
+          </a>
+        </div>
+      </nav>
+
+      {/* girl SECTION */}
+      <div className="text-center mt-20 fade-in">
+        <h1 className="text-6xl font-bold text-gray-700 bg-gradient-to-r from-rose-600 via-pink-500 to-red-400 
+      bg-clip-text text-transparent
+      font-['Playfair_Display']
+      
+">
+          Shades That Speak Your Style
+        </h1>
+
+        <p className="text-2xl text-gray-400 mt-4">
+          
+  — find the shade that feels made for you.
+
+        </p>
+      </div>
+<div className="relative w-full mt-6">
+        
+        {/* Banner Image */}
+        <img
+          src="/img/bodyimg.jpg"
+          className="w-full h-[450px] object-cover rounded-xl shadow-lg"
+          alt="banner"
+        />
+
+        {/* Overlay Text */}
+        <div className="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-center">
+
+          <h1 className="text-white text-5xl font-extrabold drop-shadow-lg">
+            Discover Your Perfect Shade
+          </h1>
+
+          <p className="text-pink-100 text-lg max-w-2xl mt-3 drop-shadow">
+            Trending lipstick shades, premium finish, and unique tones crafted just for you.
+          </p>
+
+          <button className="mt-5 bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-full text-lg shadow-lg hover:scale-105 transition">
+            Explore Shades
+          </button>
+        </div>
+      </div>
+
+
+      
+      <section className="w-full px-10 py-16 flex items-center justify-center bg-transparent">
+        
+        {/* Left Image */}
+        <div className="w-1/2 flex justify-center">
+          <img
+            src="/img/tone3.jpg"
+            alt="lipstick shades"
+            className="rounded-xl shadow-lg"
+          />
+        </div>
+
+        {/* Right Content */}
+        <div className="w-1/2 pl-16">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Say Hello! to Glow
+          </h2>
+
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Search with your shade ranges for Lipcare ideas that<br />
+            represent you
+          </p>
+
+          <button className="mt-6 bg-rose-400 hover:bg-pink-700 text-white text-lg
+                             font-semibold px-5 py-3 rounded-full hover:scale-105
+                             transition shadow-lg">
+            Shop Now
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Main;
