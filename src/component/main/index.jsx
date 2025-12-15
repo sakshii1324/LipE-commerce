@@ -125,6 +125,97 @@ const Main = () => {
           </button>
         </div>
       </section>
+      
+      {/* PRODUCT SECTION */}
+<section className="px-10 py-20">
+
+  {/* Heading */}
+  <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
+    New Launches
+  </h2>
+
+  
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+    {/* Product Card  */}
+    <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
+      <img
+        src="/img/lip1.jpg"
+        alt="lipstick"
+        className="w-full h-56 object-cover rounded-lg mb-4"
+      />
+      <h3 className="text-lg font-semibold text-gray-800">
+        Matte Transferproof Lipstick
+      </h3>
+      <p className="text-gray-600">Rs. 499</p>
+      <div className="text-yellow-500 text-sm mt-1">
+        ⭐⭐⭐⭐☆ (1049)
+      </div>
+      <button className="mt-4 w-full bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">
+        ADD TO CART
+      </button>
+    </div>
+
+    {/* Product Card  */}
+    <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
+      <img
+        src="/img/lip2.jpg"
+        alt="lip gloss"
+        className="w-full h-56 object-cover rounded-lg mb-4"
+      />
+      <h3 className="text-lg font-semibold text-gray-800">
+        Plumping Gloss Stick
+      </h3>
+      <p className="text-gray-600">Rs. 699</p>
+      <div className="text-yellow-500 text-sm mt-1">
+        ⭐⭐⭐⭐☆ (1436)
+      </div>
+      <button className="mt-4 w-full bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">
+        ADD TO CART
+      </button>
+    </div>
+
+    {/* Product Card  */}
+    <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
+      <img
+        src="/img/lip3.jpg"
+        alt="serum lipstick"
+        className="w-full h-56 object-cover rounded-lg mb-4"
+      />
+      <h3 className="text-lg font-semibold text-gray-800">
+        Serum Lipstick
+      </h3>
+      <p className="text-gray-600">Rs. 749</p>
+      <div className="text-yellow-500 text-sm mt-1">
+        ⭐⭐⭐⭐☆ (1160)
+      </div>
+      <button className="mt-4 w-full bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">
+        ADD TO CART
+      </button>
+    </div>
+
+    {/* Product Card  */}
+    <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
+      <img
+        src="/img/lip4.jpg"
+        alt="cream lipstick"
+        className="w-full h-56 object-cover rounded-lg mb-4"
+      />
+      <h3 className="text-lg font-semibold text-gray-800">
+        Creamy Matte Lipstick
+      </h3>
+      <p className="text-gray-600">Rs. 488</p>
+      <div className="text-yellow-500 text-sm mt-1">
+        ⭐⭐⭐⭐☆ (1136)
+      </div>
+      <button className="mt-4 w-full bg-black text-white py-2 rounded-full hover:bg-gray-800 transition">
+        ADD TO CART
+      </button>
+    </div>
+
+  </div>
+</section>
+
     </div>
   );
 };
