@@ -56,7 +56,7 @@ const Main = () => {
       <div className="text-center mt-20 fade-in">
         <h1 className="text-6xl font-bold text-gray-700 bg-gradient-to-r from-rose-600 via-pink-500 to-red-400 
       bg-clip-text text-transparent
-      font-['Playfair_Display']
+      font-['Playfair_Display'] drop-shadow-lg
       
 ">
           Shades That Speak Your Style
