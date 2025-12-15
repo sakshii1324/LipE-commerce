@@ -12,12 +12,12 @@ const Main = () => {
           </a>
 
           {/* Menu */}
-          <ul id="menu" className="hidden md:flex gap-10 font-medium text-lg">
-            <li><a href="/" className="hover:scale-110 text-gray-400 transition">Home</a></li>
-            <li><a href="/about" className="hover:text-gray-400  transition">About</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">Nude Shades</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">Gloss</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">Lip Oil</a></li>
+          <ul id="menu" className="font-[Montserrat] tracking-[0.2em] font-light hidden md:flex gap-10 font-medium text-lg">
+            <li><a href="/" className="hover:scale-110 text-gray-400 transition">HOME</a></li>
+            <li><a href="/about" className="hover:text-gray-400  transition">ABOUT</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">NUDE SHADES</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">GLOSS</a></li>
+            <li><a href="/shade" className="hover:text-gray-400 transition">LIP OIL</a></li>
             <li>
             <img src="/img/cart-large-2-svgrepo-com.svg" alt="cart" className="w-7 h-7 absolute hover:scale-110" /></li>
           </ul>
@@ -130,8 +130,8 @@ const Main = () => {
 <section className="px-10 py-20">
 
   {/* Heading */}
-  <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">
-    New Launches
+  <h2 className="font-[Montserrat] tracking-[0.3em] font-light text-4xl font-bold text-center text-gray-800 mb-12">
+    NEW LAUNCHES
   </h2>
 
   {/* grid */}
