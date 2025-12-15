@@ -125,7 +125,7 @@ const Main = () => {
           </button>
         </div>
       </section>
-      
+
       {/* PRODUCT SECTION */}
 <section className="px-10 py-20">
 
@@ -134,15 +134,15 @@ const Main = () => {
     New Launches
   </h2>
 
-  
+  {/* grid */}
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
 
     {/* Product Card  */}
     <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
       <img
-        src="/img/lip1.jpg"
+        src="/img/lip2.jpg"
         alt="lipstick"
-        className="w-full h-56 object-cover rounded-lg mb-4"
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Matte Transferproof Lipstick
@@ -159,9 +159,9 @@ const Main = () => {
     {/* Product Card  */}
     <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
       <img
-        src="/img/lip2.jpg"
+        src="/img/lip4.webp"
         alt="lip gloss"
-        className="w-full h-56 object-cover rounded-lg mb-4"
+        className="w-35 h-56 mx-auto object-cover rounded-lg mb-4"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Plumping Gloss Stick
@@ -178,9 +178,9 @@ const Main = () => {
     {/* Product Card  */}
     <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
       <img
-        src="/img/lip3.jpg"
+        src="/img/lip5.webp"
         alt="serum lipstick"
-        className="w-full h-56 object-cover rounded-lg mb-4"
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4 "
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Serum Lipstick
@@ -197,9 +197,9 @@ const Main = () => {
     {/* Product Card  */}
     <div className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition">
       <img
-        src="/img/lip4.jpg"
+        src="/img/lip1.webp"
         alt="cream lipstick"
-        className="w-full h-56 object-cover rounded-lg mb-4"
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Creamy Matte Lipstick
