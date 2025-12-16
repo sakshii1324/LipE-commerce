@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const Main = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-gradient-to-br from-pink-300 to-pink-100">
 
@@ -42,13 +46,13 @@ const Main = () => {
           {/* Login Button */}
           {/* <div><img src="/img/cart-large-2-svgrepo-com.svg" alt="cart" className="w-7 h-7 absolute ml-12" /></div> */}
           
-          <a
-            href="/login"
+          <button 
+          onClick={() => navigate("/login")}         
             className="hidden md:inline-block bg-gray-700 hover:shadow-lg px-5 py-3 rounded-full
                        hover:bg-gray-600 hover:scale-105 transition ml-12"
           >
             Login
-          </a>
+          </button>
         </div>
       </nav>
 
