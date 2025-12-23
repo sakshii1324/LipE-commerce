@@ -1,8 +1,12 @@
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 const Navbar = () => {
     const navigate = useNavigate();
+    const linkClass = ({ isActive }) =>
+    isActive
+      ? "text-gray-400 transition"
+      : "text-white hover:text-gray-300 transition";
 
   return (
     <nav className="text-white px-6 py-3">
@@ -15,11 +19,11 @@ const Navbar = () => {
 
           {/* Menu */}
            <ul id="menu" className="font-[Montserrat] tracking-[0.2em] font-light hidden md:flex gap-10 font-medium text-lg">
-            <li><a href="/" className="hover:scale-110 text-gray-400 transition">HOME</a></li>
-            <li><a href="/about" className="hover:text-gray-400  transition">ABOUT</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">NUDE SHADES</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">GLOSS</a></li>
-            <li><a href="/shade" className="hover:text-gray-400 transition">LIP OIL</a></li>
+            <li><NavLink to="/" className={linkClass}>HOME</NavLink></li>
+            <li><NavLink to="/about" className= {linkClass}>ABOUT</NavLink></li>
+            <li><NavLink to="/nudeshade" className={linkClass}>NUDE SHADES</NavLink></li>
+            <li><NavLink to="/gloss" className={linkClass}>GLOSS</NavLink></li>
+            <li><NavLink to="/" className="hover:text-gray-400 transition">LIP OIL</NavLink></li>
             <li>
             <img src="/img/cart-large-2-svgrepo-com.svg" alt="cart" className="w-7 h-7 absolute hover:scale-110" /></li>
           </ul> 

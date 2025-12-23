@@ -1,5 +1,5 @@
 
-import Navbar from './navbar.jsx';
+import Navbar from '../nav/navbar.jsx';
 
 const Main = () => {
   // const navigate = useNavigate();
@@ -101,7 +101,7 @@ const Main = () => {
       <img
         src="/img/lip2.jpg"
         alt="lipstick"
-        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4"
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4 hover:scale-105 transition"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Matte Transferproof Lipstick
@@ -120,7 +120,7 @@ const Main = () => {
       <img
         src="/img/lip4.webp"
         alt="lip gloss"
-        className="w-35 h-56 mx-auto object-cover rounded-lg mb-4"
+        className="w-35 h-56 mx-auto object-cover rounded-lg mb-4 hover:scale-105 transition"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Plumping Gloss Stick
@@ -139,7 +139,7 @@ const Main = () => {
       <img
         src="/img/lip5.webp"
         alt="serum lipstick"
-        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4 "
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4 hover:scale-105 transition "
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Serum Lipstick
@@ -158,7 +158,7 @@ const Main = () => {
       <img
         src="/img/lip1.webp"
         alt="cream lipstick"
-        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4"
+        className="w-35 h-56 object-cover mx-auto rounded-lg mb-4 hover:scale-105 transition"
       />
       <h3 className="text-lg font-semibold text-gray-800">
         Creamy Matte Lipstick
